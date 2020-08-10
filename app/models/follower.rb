@@ -14,4 +14,16 @@ class Follower
     end
 
 
+    def bloodoath
+        BloodOath.all.select do |bloodoath|
+            bloodoath.follower == self
+        end
+    end
+
+    def cult
+        bloodoath.map do |bloodoath|
+            bloodoath.cult
+        end
+    end
+
 end
