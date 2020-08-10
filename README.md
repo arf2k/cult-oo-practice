@@ -54,12 +54,12 @@ Cult.find_by_founding_year
 takes an Integer argument that is a year and returns all of the cults founded in that year
 Follower
 
-Follower#name
+<!-- Follower#name
 returns a String that is the follower's name
 Follower#age
 returns an Integer that is the age of the follower
 Follower#life_motto
-returns a String that is the follower's life motto
+returns a String that is the follower's life motto -->
 Follower#cults
 returns an Array of this follower's cults
 Follower#join_cult
